@@ -1,0 +1,862 @@
+.body {
+  background-color: #0c0c0c;
+  cursor: none;
+}
+
+.nav-container {
+  position: fixed;
+  z-index: 12;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 96vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-bottom: 0.1vw solid #fff;
+}
+
+.logo-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20vw;
+  height: 10vh;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.image {
+  height: 20vh;
+  max-width: 150%;
+}
+
+.image-2 {
+  max-width: 50%;
+}
+
+.links-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40vw;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.links {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40vw;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+.link-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10vw;
+  height: 10vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Neuemontreal, sans-serif;
+}
+
+.link {
+  color: #fff;
+  font-size: 1vw;
+  text-decoration: none;
+}
+
+.cta-container-nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20vw;
+  padding-right: 2vw;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.button {
+  padding-right: 2vw;
+  padding-left: 2vw;
+  border-style: solid;
+  border-width: 0.15vw;
+  border-color: #fff;
+  background-color: rgba(56, 152, 236, 0);
+  font-family: Neuemontreal, sans-serif;
+  font-size: 1vw;
+}
+
+.div-block {
+  position: absolute;
+  width: 0.1vw;
+  height: 1vw;
+  margin-left: 1vw;
+  background-color: #fff;
+}
+
+.hero-section {
+  position: absolute;
+  top: 10vh;
+  z-index: 1;
+  width: 100vw;
+  height: 90vh;
+  padding-top: 2vw;
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
+
+.main-heading {
+  position: absolute;
+  left: 3vw;
+  top: 5vh;
+  right: auto;
+  bottom: auto;
+  z-index: 1;
+  width: 70vw;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Neuemontreal, sans-serif;
+  color: #fff;
+  font-size: 6.5vw;
+  line-height: 14vh;
+  font-weight: 400;
+}
+
+.cursor-container {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 9;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.cursor {
+  position: absolute;
+  z-index: 9;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 2vw;
+  height: 2vw;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #8f0;
+  color: #000;
+}
+
+.website-text-wrapped {
+  position: relative;
+  z-index: 10;
+}
+
+.email-text {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 2vw;
+  bottom: 2vh;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Neuemontreal, sans-serif;
+  color: #fff;
+  font-size: 1vw;
+  font-weight: 400;
+}
+
+.stats-container {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: -20vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50vw;
+  height: 25vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top-right-radius: 12vw;
+  border-bottom-right-radius: 12vw;
+  background-color: #8f0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#8f0), to(#af0));
+  background-image: linear-gradient(90deg, #8f0, #af0);
+}
+
+.text-container-inside-stats-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 45vw;
+  height: 20vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.block-one {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 15vw;
+  height: 20vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.number {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Neuemontreal, sans-serif;
+  color: #0c0c0c;
+  font-size: 4vw;
+  font-weight: 500;
+  text-align: center;
+}
+
+.heading-3 {
+  margin-top: 2vh;
+  margin-bottom: 0px;
+  font-family: Neuemontreal, sans-serif;
+  color: #0c0c0c;
+  font-size: 1.2vw;
+  font-weight: 400;
+}
+
+.block-two {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 15vw;
+  height: 20vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.block-three {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 15vw;
+  height: 20vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.heading-4 {
+  position: relative;
+  left: 1vw;
+  top: 45vh;
+  right: auto;
+  bottom: auto;
+  margin-top: 0px;
+  margin-bottom: 4vh;
+  background-color: rgba(136, 255, 0, 0);
+  font-family: Neuemontreal, sans-serif;
+  color: #8f0;
+  font-size: 1vw;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-clip: border-box;
+  -webkit-text-fill-color: inherit;
+}
+
+.lottie-animation {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: auto;
+  bottom: 0%;
+  width: 20vw;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.cta-text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Neuemontreal, sans-serif;
+  color: #0c0c0c;
+  font-size: 1.2vw;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.cross {
+  max-width: 6%;
+  margin-left: 0.8vw;
+}
+
+.cross-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 2vw;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.cta-container {
+  position: absolute;
+  left: 3.5vw;
+  top: auto;
+  right: auto;
+  bottom: 7vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20vw;
+  height: 7vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0vw;
+  background-color: #8f0;
+  font-family: Neuemontreal, sans-serif;
+  color: #000;
+  font-size: 1.2vw;
+}
+
+.heading-5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.cta-background-outline {
+  position: absolute;
+  left: 3vw;
+  top: auto;
+  right: auto;
+  bottom: 5vh;
+  width: 20vw;
+  height: 6vh;
+  border-style: solid;
+  border-width: 0.2vw;
+  border-color: #8f0;
+  border-radius: 0vw;
+  background-color: rgba(136, 255, 0, 0);
+}
+
+.arrow-on-hero {
+  position: absolute;
+  left: 3vw;
+  top: auto;
+  right: auto;
+  bottom: 16vh;
+  max-width: 7%;
+  background-color: rgba(136, 255, 0, 0);
+}
+
+.heading-6 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 5vw;
+  bottom: 10vh;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Neuemontreal, sans-serif;
+  color: #fff;
+  font-size: 1.2vw;
+  font-weight: 400;
+}
+
+.second-section {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10vh;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+}
+
+.my-work-section {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 100vh;
+  padding-top: 10vh;
+  padding-right: 3vw;
+  padding-left: 3vw;
+  background-color: #0c0c0c;
+}
+
+.my-work-section.third {
+  margin-top: 200vh;
+  background-color: #0c0c0c;
+}
+
+.heading-7 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Neuemontreal, sans-serif;
+  font-size: 1.2vw;
+  font-weight: 500;
+}
+
+.nav-nav-container {
+  position: fixed;
+  z-index: 99;
+  width: 100vw;
+  height: 10vh;
+  background-color: #0c0c0c;
+}
+
+.heading-8 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Neuemontreal, sans-serif;
+  color: #fff;
+  font-size: 6vw;
+  font-weight: 400;
+}
+
+.work-blocks-container {
+  height: 160vh;
+  margin-top: 10vh;
+}
+
+.work-block.block-one {
+  position: relative;
+  width: 45vw;
+  height: 80vh;
+  margin: 2vh 1vw;
+  padding-top: 0vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border-top: 0.15vw solid #fff;
+  border-bottom: 0.15vw solid #fff;
+}
+
+.wb-num-container {
+  margin-top: auto;
+}
+
+.heading-9 {
+  display: block;
+  margin-bottom: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Neuemontreal, sans-serif;
+  color: #fff;
+  font-size: 1vw;
+  font-weight: 400;
+}
+
+.wb-w-title {
+  position: static;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Neuemontreal, sans-serif;
+  color: #fff;
+  font-size: 7vw;
+  font-weight: 400;
+}
+
+.wb-flex-hor-container {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 45vw;
+  height: 15vh;
+  padding-top: 10vh;
+  padding-bottom: 0vh;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.div-block-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hidden-wb-content-container {
+  display: block;
+  width: 45vw;
+  height: 60vh;
+  margin-top: 0vh;
+  padding-top: 6vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.image-3 {
+  max-width: 40%;
+}
+
+.paragraph {
+  width: 45vw;
+  margin-top: 2vh;
+  margin-bottom: 0px;
+  font-family: Neuemontreal, sans-serif;
+  color: #fff;
+  font-size: 1.2vw;
+}
+
+.wb-software-text-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 10vh;
+}
+
+.heading-10 {
+  display: inline;
+  font-family: Neuemontreal, sans-serif;
+  color: #fff;
+  font-size: 1.2vw;
+}
+
+.heading-11 {
+  display: inline;
+  margin-left: 1vw;
+  font-family: Neuemontreal, sans-serif;
+  color: #fff;
+  font-size: 1.2vw;
+  font-weight: 400;
+}
+
+.wb-row-one {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.spacer {
+  height: 20vh;
+}
+
+.heading-12 {
+  position: static;
+}
+
+.cta-text-in-nav {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Neuemontreal, sans-serif;
+  color: #fff;
+  font-size: 1vw;
+  font-weight: 400;
+}
+
+.my-process {
+  width: 100vw;
+  height: 100vh;
+}
+
+@font-face {
+  font-family: 'Avantgardedailymotionw03 bd';
+  src: url('../fonts/AvantGardedailymotionW03-Bd.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Uncut sans';
+  src: url('../fonts/Uncut-Sans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Uncut sans';
+  src: url('../fonts/Uncut-Sans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Uncut sans';
+  src: url('../fonts/Uncut-Sans-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Uncut sans';
+  src: url('../fonts/Uncut-Sans-MediumOblique.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Uncut sans';
+  src: url('../fonts/Uncut-Sans-RegularOblique.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Helveticanowdisplay';
+  src: url('../fonts/HelveticaNowDisplay-ExtraBold.ttf') format('truetype'), url('../fonts/HelveticaNowDisplay-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Helveticanowdisplay';
+  src: url('../fonts/HelveticaNowDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Uncut sans';
+  src: url('../fonts/Uncut-Sans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Helveticanowdisplay extltita';
+  src: url('../fonts/HelveticaNowDisplay-ExtLtIta.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Helveticanowdisplay';
+  src: url('../fonts/HelveticaNowDisplay-Thin.ttf') format('truetype'), url('../fonts/HelveticaNowDisplay-ThinIta.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Helveticanowdisplay';
+  src: url('../fonts/HelveticaNowDisplay-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Helveticanowdisplay extlt';
+  src: url('../fonts/HelveticaNowDisplay-ExtLt.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Helveticanowdisplay hairline';
+  src: url('../fonts/HelveticaNowDisplay-Hairline.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Helveticanowdisplay hairlinei';
+  src: url('../fonts/HelveticaNowDisplay-HairlineI.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Neuemontreal';
+  src: url('../fonts/NeueMontreal-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Neuemontreal';
+  src: url('../fonts/NeueMontreal-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Neuemontreal';
+  src: url('../fonts/NeueMontreal-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Neuemontreal';
+  src: url('../fonts/NeueMontreal-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Neuemontreal';
+  src: url('../fonts/NeueMontreal-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Neuemontreal';
+  src: url('../fonts/NeueMontreal-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Neuemontreal';
+  src: url('../fonts/NeueMontreal-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Neuemontreal';
+  src: url('../fonts/NeueMontreal-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
